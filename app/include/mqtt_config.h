@@ -29,13 +29,12 @@ typedef enum{
 //#define MQTT_PASS        	"1c52ffc516a8e628af5e7c6f07228ac92c249ca6" 	// MQTT√‹¬Î					// you MQTT login password, same as above
 //#define PUBLISH_TOPIC		"/a1v6uk67JYR/ESP8266/user/update"
 
-
-#define MQTT_HOST			"a17PRbLK3y5.iot-as-mqtt.cn-shanghai.aliyuncs.com"
+#define MQTT_HOST			"a1x17icuiMZ.iot-as-mqtt.cn-shanghai.aliyuncs.com"
 #define MQTT_PORT       	1883
-#define MQTT_CLIENT_ID   	"FEVA234FBDS33|securemode=3,signmethod=hmacsha1,timestamp=789|"
-#define MQTT_USER        	"ESP8266&a17PRbLK3y5"
-#define MQTT_PASS        	"c9e7c4142b880db568b0b596c0a9d1b5bc26330a"
-#define PUBLISH_TOPIC		"/a17PRbLK3y5/ESP8266/user/update"
+#define MQTT_CLIENT_ID   	"a1x17icuiMZ.STM32|securemode=2,signmethod=hmacsha256,timestamp=2524608000000|"
+#define MQTT_USER        	"STM32&a1x17icuiMZ"
+#define MQTT_PASS        	"e6c971d6de6685af26c3d57e9be57f1298411e6e8b1ee171abe40d00626fd56e"
+#define PUBLISH_TOPIC		"/a1x17icuiMZ/STM32/user/update"
 
 
 
